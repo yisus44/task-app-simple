@@ -24,6 +24,7 @@ li {
   color: white;
   border: solid white 0px;
   width: 150px;
+  font-weight: bold;
 }
 
 .center {
