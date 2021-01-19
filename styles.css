@@ -1,0 +1,45 @@
+body {
+  font-family: arial;
+  font-size: 12px;
+  background-color: whitesmoke;
+  margin: auto;
+}
+h1 {
+  color: teal;
+  font-size: 32px;
+  margin: auto;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+li {
+  border: solid white 1px;
+}
+
+.btn-remove {
+  background-color: rgb(192, 44, 44);
+  color: white;
+  border: solid white 0px;
+  width: 150px;
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+  border: 3px solid teal;
+  padding: 10px;
+}
+
+.btn {
+  font-weight: bold;
+  background-color: teal;
+  color: whitesmoke;
+  width: 150px;
+}
+
+#task-list {
+  border: 2px solid rgba(7, 109, 226, 0.671);
+}

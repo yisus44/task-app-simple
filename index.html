@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do list</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="center">
+      <h1>Tasks to do....</h1>
+      <div>
+        <form>
+          <input
+            id="task-title"
+            type="text"
+            placeholder="Task to do..."
+            required
+          />
+          <input
+            id="task-description"
+            type="text"
+            placeholder="Description (optional)"
+          />
+          <input id="btn-submit" class="btn" type="submit" />
+        </form>
+      </div>
+      <div>
+        <ul id="task-list"></ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
