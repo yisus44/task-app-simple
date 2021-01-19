@@ -58,5 +58,7 @@ btnSubmit.addEventListener("click", function (e) {
   localStorage.setItem(taskTitle, taskDescription);
 });
 
-renderPastTasks();
-updateDeleteButtons();
+(function () {
+  renderPastTasks();
+  updateDeleteButtons();
+})();
